@@ -9,6 +9,11 @@ const theme = extendTheme({
   },
   components: {
     Progress: {
+        baseStyle:{ /*Estilos predeterminados de un componente*/ 
+            filledTrack:{
+                borderRadius:`0` /*Le aplico el border radius a la parte llena de la barra*/ 
+            },
+        },
       defaultProps: {
         colorScheme: 'customRed', // El color por defecto de las barras de progreso
       },

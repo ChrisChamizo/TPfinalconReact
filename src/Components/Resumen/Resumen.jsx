@@ -5,7 +5,6 @@ import { Box, Heading, Text, Divider, Progress, Stack,extendTheme } from '@chakr
 
 
 
-
 function Resumen() {
   return (
     <Box as="section" p="5">
