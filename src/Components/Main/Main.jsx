@@ -3,7 +3,8 @@
 
 import "./Main.css";
 import { Hero } from "../Hero/Hero.jsx";
-import { Servicios, SobreMi } from "../Section/Section.jsx";
+import { Servicios, SobreMi} from "../Section/Section.jsx";
+import { Resumen } from "../Resumen/Resumen.jsx";
 
 
 const Main = () => {
@@ -12,7 +13,7 @@ const Main = () => {
             <Hero />
             <SobreMi/>
             <Servicios/>
-            
+            <Resumen/>
         </div>
     );
 };
