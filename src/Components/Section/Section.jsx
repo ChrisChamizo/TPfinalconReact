@@ -1,5 +1,3 @@
-/*Importo el css del section*/
-import "./Section.css"
 /*Importo la imagen de la compu*/
 import compu from "../../assets/img/compu.jpg"
 /*Importo la libreria de iconos fontAweSome*/ 

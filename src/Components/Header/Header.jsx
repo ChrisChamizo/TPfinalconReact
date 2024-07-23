@@ -1,5 +1,3 @@
-/*Importo el css del header*/
-import "./Header.css"
 
 /*Creo la funcion Header*/
 function Header(){
