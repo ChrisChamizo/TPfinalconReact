@@ -8,6 +8,8 @@ import { Header } from './Components/Header/Header.jsx'
 import { Main } from './Components/Main/Main.jsx'
 import { Footer } from './Components/Footer/Footer.jsx'
 import { Resumen } from './Components/Resumen/Resumen.jsx'
+import { Formulario } from './Components/Formulario/Formulario.jsx';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

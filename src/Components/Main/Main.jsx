@@ -5,6 +5,7 @@ import "./Main.css";
 import { Hero } from "../Hero/Hero.jsx";
 import { Servicios, SobreMi} from "../Section/Section.jsx";
 import { Resumen } from "../Resumen/Resumen.jsx";
+import {Formulario} from "../Formulario/Formulario.jsx";
 
 
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
             <SobreMi/>
             <Servicios/>
             <Resumen/>
+            <Formulario/>
         </div>
     );
 };

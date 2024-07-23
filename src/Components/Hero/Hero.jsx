@@ -1,5 +1,3 @@
-/*Importo el css del hero*/
-import "./Hero.css"
 /*Importo las imagenes de la seccion hero*/
 import fotopersonal from "../../assets/img/fotopersonal.jpg"
 
