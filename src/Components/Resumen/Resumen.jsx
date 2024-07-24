@@ -1,44 +1,52 @@
-import React, { Component } from 'react';
+import React from 'react';
 /* Importación de los componentes de Chakra UI */
-import { Box, Heading, Text, Divider, Progress, Stack,extendTheme } from '@chakra-ui/react';
+import { Box, Heading, Text, Divider, Progress, Stack,extendTheme, ChakraProvider} from '@chakra-ui/react';
 
 
-
-
+/* Función Resumen */
 function Resumen() {
   return (
-    <Box as="section" p="5">
-      <Heading as="h1" mb="5">RESUMEN</Heading>
+    <Box as="section" p="5px" bg="gray.900" color="white" h="100vh">
+      <Heading as="h1" mb="3px" textAlign="center" size="lg">
+        RESUMEN
+      </Heading>
+      <Divider borderColor="customRed.500" borderWidth="2px" maxW="100px" mx="auto" mt="3" mb="5" />
 
-      <Box mb="5">
-        <Heading as="h2" size="lg">2018 - Actualidad</Heading>
-        <Divider my="3" />
-        <Text fontWeight="bold">Tecnicatura Universitaria en Informática</Text>
-        <Text>Universidad Nacional De General Sarmiento (UNGS)</Text>
-      </Box>
+      <Stack spacing="8" maxW="800px" mx="auto">
+        <Box textAlign="left" bg="gray.800" p="5px" borderRadius="md">
 
-      <Stack spacing={5}>
-        <Box>
-          <Heading as="h2" size="lg" mb="2">DISEÑO</Heading>
-          <Progress  value={80} size="sm" mb="4" colorScheme="customRed" />
-          
-          <Heading as="h2" size="lg" mb="2">APP DE ESCRITORIO</Heading>
-          <Progress  value={75} size="sm" mb="4" colorScheme="customRed" />
-          
-          <Heading as="h2" size="lg" mb="2">MANTENIMIENTO WEB</Heading>
-          <Progress  value={70} size="sm" mb="4" colorScheme="customRed" />
+          <Heading as="h2" size="md" mb="2">2018 - Actualidad</Heading>
+
+          <Divider my="3" borderColor="customRed.500" borderWidth="2px" maxW="100px" />
+          <Text fontWeight="bold">Tecnicatura Universitaria en Informática</Text>
+          <Text>Universidad Nacional De General Sarmiento (UNGS)</Text>
         </Box>
 
-        <Box mb="5">
-          <Heading as="h2" size="lg" mb="2">HTML</Heading>
-          <Progress  value={50} size="sm" mb="4" colorScheme="customRed" />
+        <Stack direction="row" spacing="5" wrap="wrap" justify="center">
 
-          <Heading as="h2" size="lg" mb="2">CSS</Heading>
-          <Progress  value={70} size="sm" mb="4" colorScheme="customRed" />
-        </Box>
+          <Box flexBasis="45%" bg="gray.800" p="5px" borderRadius="md">
+
+            <Heading as="h2" size="sm" mb="2">DISEÑO</Heading>
+            <Progress value={80} size="sm" mb="4" colorScheme="customRed" />
+
+            <Heading as="h2" size="sm" mb="2">APP DE ESCRITORIO</Heading>
+            <Progress value={85} size="sm" mb="4" colorScheme="customRed" />
+
+            <Heading as="h2" size="sm" mb="2">MANTENIMIENTO WEB</Heading>
+            <Progress value={70} size="sm" mb="4" colorScheme="customRed" />
+          </Box>
+
+          <Box flexBasis="45%" bg="gray.800" p="5" borderRadius="md">
+
+            <Heading as="h2" size="sm" mb="2">HTML</Heading>
+            <Progress value={70} size="sm" mb="4" colorScheme="customRed" />
+
+            <Heading as="h2" size="sm" mb="2">CSS</Heading>
+            <Progress value={75} size="sm" mb="4" colorScheme="customRed" />
+          </Box>
+        </Stack>
       </Stack>
     </Box>
   );
 }
-
-export { Resumen };
+export {Resumen}
