@@ -1,3 +1,4 @@
+
 /*Importo las imagenes de la seccion hero*/
 import fotopersonal from "../../assets/img/fotopersonal.jpg"
 

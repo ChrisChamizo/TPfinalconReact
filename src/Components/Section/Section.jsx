@@ -65,54 +65,6 @@ export { SobreMi };
 rojo y otro contenedor para la imagen que contenga el borde redondeado.*/ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------------SECCION SERVICIOS---------------------------------*/
-
 function Servicios() {
   return (
     <Box bg="#111827" color="white" py="10">
