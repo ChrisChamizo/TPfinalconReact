@@ -7,7 +7,7 @@ import { Box, Heading, Text, Divider, Progress, Stack,extendTheme, ChakraProvide
 function Resumen(){
   return(
     <Box as="section" p="5" bg="gray.900" color="white" h="100vh">
-        <Heading as="h1" mb="3px" textAlign="center" fontSize="32px">
+        <Heading as="h1" mb="3" textAlign="center" fontSize="32px">
           RESUMEN
         </Heading>
         <Divider borderColor="customRed.500" borderWidth="2px" maxW="100px" mx="auto" mt="3" mb="5" />

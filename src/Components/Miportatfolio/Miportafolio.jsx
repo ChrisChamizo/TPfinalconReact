@@ -13,11 +13,11 @@ import { Box, Heading, Image, Link, Text, HStack,Divider } from '@chakra-ui/reac
 const MiPortafolio = () => {
     return (
       <Box bg="#101324" color="white" py="10">
-        <Box textAlign="center" mb="10">
+        <Box textAlign="center" mb="3">
           <Heading as="h1" fontSize="32px">
             MI PORTAFOLIO
           </Heading>
-          <Divider borderColor="red.500" borderWidth="2px" maxW="100px" mx="auto" mt="3" mb="5" />
+          <Divider borderColor="customRed.500" borderWidth="2px" maxW="100px" mx="auto" mt="3" mb="5"/>
         </Box>
   
         <Box mx="auto" maxW="1200px" px="5">

@@ -1,7 +1,12 @@
 /*Importo la imagen de la compu*/
 import compu from "../../assets/img/compu.jpg"
-/*Importo la libreria de iconos fontAweSome*/ 
-import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* importo los componentes de CHAKRA IU*/
+import { Box, Flex, Heading, Text, Icon, Stack,Divider} from '@chakra-ui/react';
+
+/*Importo los iconos nesesarios de Icons-react*/
+import { FaTachometerAlt, FaHandHoldingUsd, FaSignal } from 'react-icons/fa';
+
 
 
 /*Creo la funcion Sobre mi*/ 
@@ -45,36 +50,42 @@ function SobreMi() {
 
 export { SobreMi };
 
-/*Creo la funcion Servicios*/
-function Servicios(){
-    return (
-        <div>
-          <section className="servicios">
-            <h2>SERVICIOS</h2>
-          </section>
-    
-          <div className="tipo-de-servicios">
-            <section className="serviciouno">
-              <i className="fa-solid fa-gauge-simple-high"></i>
-              <h2>VELOCIDAD & OPTIMIZACION</h2>
-              <p>Acelera la <b>Velocidad</b> y <b>Optimiza</b> tu sitio web para una carga más rápida en dispositivos móviles y PC.</p>
-            </section>
-            
-            <section className="serviciodos">
-              <i className="fa-solid fa-hand-holding-dollar"></i>
-              <h2>BRANDING</h2>
-              <p>Tu marca personal de forma rápida y sencilla, especialmente diseñada para ti y tus ideales.</p>
-            </section>
-            
-            <section className="serviciotres">
-              <i className="fa-solid fa-stairs"></i><i className="fa-solid fa-signal"></i>
-              <h2>SEO & POSICIONAMIENTO</h2>
-              <p>Posiciona tu sitio web para obtener mejores resultados cuando busquen tu sitio web.</p>
-            </section>
-          </div>
-        </div>
-      );
-    };
-    
-    export {Servicios};
-   
+function Servicios() {
+  return (
+    <Box bg="#111827" color="white" py="10">
+      
+      <Heading as="h2" size="xl" textAlign="center" mb="3" borderColor="red.600" pb="2">
+        SERVICIOS
+      </Heading>
+      <Divider borderColor="customRed.500" borderWidth="2px" maxW="100px" mx="auto" mt="3" mb="5" />
+
+      <Flex justify="space-around">
+        <Stack align="center" maxW="xs" textAlign="center" spacing={4}>
+          <Icon as={FaTachometerAlt} boxSize={10} />
+          <Heading as="h3" size="md">VELOCIDAD & OPTIMIZACIÓN</Heading>
+          <Text>
+            Acelera la <b>Velocidad</b> y <b>Optimiza</b> tu sitio web para una carga más rápida en dispositivos móviles y PC.
+          </Text>
+        </Stack>
+
+        <Stack align="center" maxW="xs" textAlign="center" spacing={4}>
+          <Icon as={FaHandHoldingUsd} boxSize={10} />
+          <Heading as="h3" size="md">BRANDING</Heading>
+          <Text>
+            Tu marca personal de forma rápida y sencilla, especialmente diseñada para ti y tus ideales.
+          </Text>
+        </Stack>
+
+        <Stack align="center" maxW="xs" textAlign="center" spacing={4}>
+          <Icon as={FaSignal} boxSize={10} />
+          <Heading as="h3" size="md">SEO & POSICIONAMIENTO</Heading>
+          <Text>
+            Posiciona tu sitio web para obtener mejores resultados cuando busquen tu sitio web.
+          </Text>
+        </Stack>
+      </Flex>
+    </Box>
+  );
+}
+
+export { Servicios };
