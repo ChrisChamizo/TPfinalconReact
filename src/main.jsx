@@ -8,6 +8,7 @@ import { Header } from './Components/Header/Header.jsx'
 import { Main } from './Components/Main/Main.jsx'
 import { Footer } from './Components/Footer/Footer.jsx'
 import { Resumen } from './Components/Resumen/Resumen.jsx'
+import { MiPortafolio } from './Components/Miportatfolio/Miportafolio.jsx';
 import { Formulario } from './Components/Formulario/Formulario.jsx';
 
 

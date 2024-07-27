@@ -32,12 +32,11 @@ const Formulario = () => {
   return (
     <Box bg="#141b24" color="#fff" p="10px">
       <Box textAlign="center">
-        <Heading as="h1" size="sm" color="rgb(205,207,208)">
+        <Heading as="h1" fontSize="32px" color="rgb(205,207,208)">
           CONTACTO
         </Heading>
         <Divider my="3" borderColor="customRed.500" borderWidth="2px" maxW="100px" mx="auto" mt="3" mb="5"/>
-       
-
+        
       </Box>
 
       <Flex justify="space-between" maxW="1200px" mx="auto">
