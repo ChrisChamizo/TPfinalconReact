@@ -12,7 +12,7 @@ lerna-debug.log*
 # dist-ssr
 # *.local
 
-build
+build/*
 */build
 
 # Editor directories and files

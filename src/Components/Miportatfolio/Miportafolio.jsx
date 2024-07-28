@@ -4,6 +4,7 @@ import React from 'react';
 /* Importación  de las imágenes */
 import imagentp3 from '../../assets/img/imagentp3.jpg';
 import imagentp4 from '../../assets/img/imagentp4.jpg';
+import imagentpreact from '../../assets/img/imagentpreact.png';
 
 /* Importación de los componentes de Chakra UI */
 import { Box, Heading, Image, Link, Text, HStack,Divider } from '@chakra-ui/react';
@@ -30,6 +31,9 @@ const MiPortafolio = () => {
   
             <Box className="screenshot-portfolio">
               <Image src={imagentp4} alt="screenshot de porfolio4" borderRadius="md" boxShadow="lg" />
+            </Box>
+            <Box className="screenshot-portfolio">
+            <Image src={imagentpreact} alt="screenshot de porfolio4" borderRadius="md" boxShadow="lg" />
             </Box>
             </HStack>
   
