@@ -1,26 +1,10 @@
 image: node:latest
 
-stages:
-  - build
-  - deploy
-
-# La etapa de construcción
-build:
-  stage: build
+pages:
   script:
     - npm install
     - npm run build
-  artifacts:
-    paths:
-      - dist/
-
-# La etapa de despliegue para GitLab Pages
-pages:
-  stage: deploy
-  script:
-    - mv dist public
+    - cp -r build public
   artifacts:
     paths:
       - public
-  only:
-    - main  
