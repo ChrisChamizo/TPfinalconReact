@@ -1,3 +1,4 @@
+
 /*Importo los componentes de CHACKA IU*/ 
 import { Box, Flex, Heading, Image, Text, Link, Icon, Button, VStack } from "@chakra-ui/react";
 /*Importo los iconos de react-icons*/ 
