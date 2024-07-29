@@ -2,7 +2,7 @@
 import compu from "../../assets/img/compu.jpg"
 
 /* importo los componentes de CHAKRA IU*/
-import { Box, Flex, Heading, Text,Image, Stack,Icon,Divider,Button} from '@chakra-ui/react';
+import { Box, Flex, Heading, Text,Image, Stack,Icon,Divider,Button,HStack} from '@chakra-ui/react';
 
 /*Importo los iconos nesesarios de Icons-react*/
 import { FaTachometerAlt, FaHandHoldingUsd, FaSignal } from 'react-icons/fa';
@@ -98,6 +98,18 @@ function Servicios() {
             Posiciona tu sitio web para obtener mejores resultados cuando busquen tu sitio web.
           </Text>
         </Stack>
+      </Flex>
+
+       {/* Componente de scroll */}
+       <Flex justify="center" mt="5">
+        <HStack spacing="2">
+          <Box w="6" h="6" bg="white" borderRadius="full" border="2px solid red"></Box>
+          <Box w="6" h="6" bg="#d2002d" borderRadius="full" border="2px solid red"></Box>
+          <Box w="6" h="6" bg="#d9d9d9" borderRadius="full" border="2px solid red"></Box>
+          <Box w="6" h="6" bg="#d9d9d9" borderRadius="full" border="2px solid red"></Box>
+          <Box w="6" h="6" bg="#d9d9d9" borderRadius="full" border="2px solid red"></Box>
+          <Box w="6" h="6" bg="#d9d9d9" borderRadius="full" border="2px solid red"></Box>
+        </HStack>
       </Flex>
     </Box>
   );
