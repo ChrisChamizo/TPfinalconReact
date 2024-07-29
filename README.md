@@ -2,8 +2,7 @@
 
 Este proyecto tiene como objetivo crear una página web tipo portafolio utilizando el editor de código Visual Studio Code. Me inspiré en diseños obtenidos de plataformas como Dribbble y Behance, esforzándome por replicar fielmente el diseño seleccionado.
 
-Para visualizar el diseño elegido para replicar, <a href="
-https://www.behance.net/gallery/178045213/Web-Design-Portfolio?tracking_source=search_projects%7Cporfolio+web+&l=187">Haga click aqui</a>
+Para visualizar el diseño elegido para replicar, <a href="https://www.behance.net/gallery/178045213/Web-Design-Portfolio?tracking_source=search_projects%7Cporfolio+web+&l=187">Haga click aqui</a>
 
 <b>Estructura de la página:</b>
 
