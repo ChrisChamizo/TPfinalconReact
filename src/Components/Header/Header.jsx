@@ -17,22 +17,28 @@ function Header() {
             </Heading>
           </Flex>
           <Flex>
-            <Button variant="link" colorScheme="red" mr="8">
+            <Button variant="link" colorScheme="red" mr="8" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               INICIO
             </Button>
-            <Button variant="link" colorScheme="white" mr="8">
+            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               SOBRE MI
             </Button>
-            <Button variant="link" colorScheme="white" mr="8">
+            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               SERVICIOS
             </Button>
-            <Button variant="link" colorScheme="white" mr="8">
+            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               RESUMEN
             </Button>
-            <Button variant="link" colorScheme="white" mr="8">
+            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               PORTAFOLIO
             </Button>
-            <Button variant="link" colorScheme="white" mr="8">
+            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               CONTACTAME
             </Button>
           </Flex>

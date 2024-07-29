@@ -39,12 +39,14 @@ const MiPortafolio = () => {
   
           {/* Contiene el link del porfolio */}
           <Box className="link-porfolio" textAlign="left" mt="10">
-            <Link href="https://github.com/ChrisChamizo" isExternal fontSize="lg" color="teal.300">
+            <Link href="https://github.com/ChrisChamizo" isExternal fontSize="lg" color="teal.300" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
               Web Design / porfolio
             </Link>
             <Text fontSize="lg">
               De Christian Chamizo.{' '}
-              <Link href="https://www.behance.net/" isExternal color="teal.300">
+              <Link href="https://www.behance.net/" isExternal color="teal.300" textDecoration="none"
+          _hover={{ textDecoration: "none" }}>
                 Seguir
               </Link>
             </Text>
