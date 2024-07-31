@@ -8,7 +8,7 @@ import imagentpreact from '../../assets/img/imagentpreact.png';
 import FormRegister from '../../assets/img/FormRegister.png';
 
 /* Importación de los componentes de Chakra UI */
-import { Box, Heading, Image, Link, Text, HStack,Divider } from '@chakra-ui/react';
+import { Box, Heading, Image, Link, Text, HStack,Divider} from '@chakra-ui/react';
 /*Utilizo el componente HStack para alinear horizontalmente las imagenes*/ 
 
 /* Creación de la función MiPortfolio */
@@ -39,53 +39,71 @@ const MiPortafolio = () => {
 
       <Box 
       mx="auto" 
-      maxW="1200px" 
+      maxW="1350px" 
       px={{ base: "5", md: "10" }}>
         <HStack
-        direction={{ base: "column", md: "row" }}
         spacing="6" 
-        justify="center">
+        justify="center"
+        >
           <Box
-           className="screenshot-portfolio"
-           >
-            <Image
+           className="screenshot-portfolio" 
+           w="100%"
+           maxW="25%"
+          >
+           <Image
              src={imagentp3}
             alt="screenshot de porfolio3"
             borderRadius="md"
             boxShadow="lg"
+            objectFit="cover"
+            width="100%"
+            height="200%"
             />
           </Box>
+
           <Box
-           className="screenshot-portfolio"
+           className="screenshot-portfolio" 
+           w="100%"
+           maxW="25%"
            >
             <Image
              src={imagentp4}
               alt="screenshot de porfolio4"
               borderRadius="md" 
-              boxShadow="lg" />
+              boxShadow="lg"
+              objectFit="cover"
+              width="100%"
+              height="200%"
+               />
           </Box>
           <Box
-           className="screenshot-portfolio"
-           >
-            <Image
+           className="screenshot-portfolio" 
+            w="100% "
+            maxW="25%">
+              <Image
              src={imagentpreact}
               alt="screenshot de porfolio4"
               borderRadius="md"
               boxShadow="lg"
-            />
+              objectFit="cover"
+              width="100%"
+              height="200%"
+               />
           </Box>
             
           <Box
-          className="screenshot-portfolio"
-          >
+          className="screenshot-portfolio" 
+          w="100%"
+          maxW="25%">
             <Image
             src={FormRegister}
             alt="Screenshot de formulario registro"
             borderRadius="md"
             boxShadow="lg"
+            objectFit="cover"
+            width="100%"
+            height="200%"
             />
-            
-
           </Box>
         </HStack>
 
