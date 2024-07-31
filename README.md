@@ -19,7 +19,7 @@ La página está dividida en seis secciones:
 
 El desarrollo del portafolio se realizó utilizando React + Vite para una experiencia de desarrollo rápida y eficiente. La estilización de la página se llevó a cabo con Chakra UI, proporcionando un diseño moderno y responsivo.
 
-Para visualizar la pagina web terminada,  <a href="https://chrischamizo.github.io/TPfinalconReact/">Haga click aqui</a>.
+
 
 
 
