@@ -12,6 +12,7 @@ import { Box, Heading, Image, Link, Text, HStack,Divider } from '@chakra-ui/reac
 
 /* Creación de la función MiPortfolio */
 const MiPortafolio = () => {
+  
   return (
     <Box 
     bg="#101324" 

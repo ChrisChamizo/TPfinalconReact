@@ -42,11 +42,7 @@ function SobreMi() {
            as="h3" 
            fontSize={{base:"lg",md:"xl"}} 
            mb="4">
-            Joven Apasionado Al Diseño Web Que Ama Un Diseño Limpio, Simple y Único.
-            <Text 
-            as="span" 
-            color="red.500">
-            </Text> 
+             Joven Apasionado Al <Text as="span" color="red.500">Diseño Web</Text> Que Ama Un Diseño Limpio, Simple y Único.
           </Heading>
 
           <Divider 
