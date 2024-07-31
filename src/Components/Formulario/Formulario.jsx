@@ -64,9 +64,8 @@ const Formulario = () => {
           <Box mt="6px" ml={{ base: "0", md: "8px" }}>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.23949906467!2d-58.43329845000001!3d-34.615823750000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1717097539226!5m2!1ses-419!2sar"
-              width="400"
-              height="300"
-              style={{ border: 0 }}
+              
+              style={{ border: 0, width:"100%",height:"300px"}}
               allowFullScreen=""
               loading="lazy"
             ></iframe>
