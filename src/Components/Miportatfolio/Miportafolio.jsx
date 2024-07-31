@@ -5,6 +5,7 @@ import React from 'react';
 import imagentp3 from '../../assets/img/imagentp3.jpg';
 import imagentp4 from '../../assets/img/imagentp4.jpg';
 import imagentpreact from '../../assets/img/imagentpreact.png';
+import FormRegister from '../../assets/img/FormRegister.png';
 
 /* Importación de los componentes de Chakra UI */
 import { Box, Heading, Image, Link, Text, HStack,Divider } from '@chakra-ui/react';
@@ -72,6 +73,19 @@ const MiPortafolio = () => {
               borderRadius="md"
               boxShadow="lg"
             />
+          </Box>
+            
+          <Box
+          className="screenshot-portfolio"
+          >
+            <Image
+            src={FormRegister}
+            alt="Screenshot de formulario registro"
+            borderRadius="md"
+            boxShadow="lg"
+            />
+            
+
           </Box>
         </HStack>
 
