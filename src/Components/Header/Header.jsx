@@ -3,49 +3,50 @@ import {Box,Button,Flex,Heading,Text} from "@chakra-ui/react"
 
 
 /*Creo la funcion Header*/
-
 function Header() {
-    return (
-      <Box as="header" bg="#040b15" color="white" p="4">
-        <Flex align="center" justify="space-between">
-          <Flex align="center">
-            <Text fontSize="2xl" fontWeight="bold" color="red.600" mr="4">
-              CC
-            </Text>
-            <Heading as="h1" size="lg" fontWeight="bold">
-              Christian Chamizo
-            </Heading>
-          </Flex>
-          <Flex>
-            <Button variant="link" colorScheme="red" mr="8" textDecoration="none"
-          _hover={{ textDecoration: "none" }}>
-              INICIO
-            </Button>
-            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
-          _hover={{ textDecoration: "none" }}>
-              SOBRE MI
-            </Button>
-            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
-          _hover={{ textDecoration: "none" }}>
-              SERVICIOS
-            </Button>
-            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
-          _hover={{ textDecoration: "none" }}>
-              RESUMEN
-            </Button>
-            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
-          _hover={{ textDecoration: "none" }}>
-              PORTAFOLIO
-            </Button>
-            <Button variant="link" colorScheme="white" mr="8" textDecoration="none"
-          _hover={{ textDecoration: "none" }}>
-              CONTACTAME
-            </Button>
-          </Flex>
+  const menuItems = ["INICIO", "SOBRE MI", "SERVICIOS", "RESUMEN", "PORTAFOLIO", "CONTACTAME"];
+
+  return (
+    <Box as="header" bg="#040b15" color="white" p="4">
+      <Flex
+        align="center"
+        justify={{ base: "center", md: "space-between" }}
+        flexDirection={{ base: "column", md: "row" }}
+        
+      >
+        <Flex align="center" mb={{ base: 4, md: 0 }}>
+          <Text fontSize="2xl" fontWeight="bold" color="red.600" mr="4">
+            CC
+          </Text>
+          <Heading as="h1" size="lg" fontWeight="bold">
+            Christian Chamizo
+          </Heading>
         </Flex>
-      </Box>
-    );
-  }
-  export {Header}
 
+        <Flex
+          flexDirection={{ base: "column", md: "row" }}
+          align={{ base: "center", md: "center" }}
+          wrap="wrap"
+          mt={{base: 4,md: 0}}
+        >
+          {menuItems.map((item, index) => (
+            <Button
+              key={index}
+              variant="link"
+              colorScheme={item === "INICIO" ? "red" : "white"}
+              color={item === "INICIO" ? "red.600" : "white"}
+              mb={{ base: 2, md: 0 }}
+              mr={{ base: 0, md: 8 }}
+              textDecoration="none"
+              _hover={{ textDecoration: "none" }}
+            >
+              {item}
+            </Button>
+          ))}
+        </Flex>
+      </Flex>
+    </Box>
+  );
+}
 
+export { Header };

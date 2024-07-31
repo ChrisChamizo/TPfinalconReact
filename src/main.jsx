@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './responsive.css'
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import Theme from './Theme/Theme.jsx';
 
 import { Header } from './Components/Header/Header.jsx'
@@ -10,6 +9,18 @@ import { Footer } from './Components/Footer/Footer.jsx'
 import { Resumen } from './Components/Resumen/Resumen.jsx'
 import { MiPortafolio } from './Components/Miportatfolio/Miportafolio.jsx';
 import { Formulario } from './Components/Formulario/Formulario.jsx';
+
+/*creo los breakpoints*/
+const theme =extendTheme ({
+  breakpoints:{
+    base: "0px",
+    sm: "480px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1367px",
+    "2xl": "1440px",
+  },
+}); 
 
 
 
