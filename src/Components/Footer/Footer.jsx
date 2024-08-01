@@ -15,7 +15,7 @@ import {Box,Heading,Link,Text,Icon, Flex} from "@chakra-ui/react";
         bg="#0b0d17" 
         color="white" 
         py="6px"
-        fontFamily="Montserrat, sans-serif"
+        fontFamily="Montserrat, sans-serif" 
         >
           <Flex 
           direction="column" 
