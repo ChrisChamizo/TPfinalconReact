@@ -2,6 +2,7 @@ import { extendTheme } from '@chakra-ui/react';
 
 /* Función con el color para las barras de progreso */
 const theme = extendTheme({
+  
   colors: {
     customRed: {
       500: '#d2002c',

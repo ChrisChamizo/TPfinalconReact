@@ -25,7 +25,9 @@ const MiPortafolio = () => {
       >
         <Heading
          as="h1"
-         fontSize={{ base: "24px", md: "32px" }}>
+         fontSize={{ base: "24px", md: "32px" }}
+         fontFamily="Poppins, sans-serif"
+         >
           MI PORTAFOLIO
         </Heading>
         <Divider

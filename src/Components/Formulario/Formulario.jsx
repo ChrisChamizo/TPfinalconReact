@@ -28,7 +28,13 @@ const Formulario = () => {
   return (
     <Box bg="#141b24" color="#fff" p={{ base: "4", md: "6", lg: "10" }}>
       <Box textAlign="center">
-        <Heading as="h1" fontSize={{ base: "24px", md: "28px", lg: "32px" }} color="rgb(205,207,208)">
+        <Heading 
+        as="h1" 
+        fontSize={{ base: "24px", md: "28px", lg: "32px" }}
+         color="rgb(205,207,208)"
+         fontFamily="'acumin-pro', 'Acumin Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+         
+         >
           CONTACTO
         </Heading>
         <Divider
