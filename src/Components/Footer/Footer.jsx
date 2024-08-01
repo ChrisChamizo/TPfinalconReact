@@ -4,6 +4,9 @@ import {Box,Heading,Link,Text,Icon, Flex} from "@chakra-ui/react";
 /*Importo los iconos de la libreria de react como componentes.*/
  import { FaFacebook,FaInstagram,FaWhatsapp,FaTwitter,FaCopyright } from "react-icons/fa";
 
+ /*Importo la fuente*/
+ import "@fontsource/montserrat"
+
  /*Creo la funcion Footer*/ 
  const Footer=() =>{
     return (
@@ -12,6 +15,7 @@ import {Box,Heading,Link,Text,Icon, Flex} from "@chakra-ui/react";
         bg="#0b0d17" 
         color="white" 
         py="6px"
+        fontFamily="Montserrat, sans-serif"
         >
           <Flex 
           direction="column" 
