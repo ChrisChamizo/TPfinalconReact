@@ -19,6 +19,8 @@ La página está dividida en seis secciones:
 
 El desarrollo del portafolio se realizó utilizando React + Vite para una experiencia de desarrollo rápida y eficiente. La estilización de la página se llevó a cabo con Chakra UI, proporcionando un diseño moderno y responsivo.
 
+Aclaracion: El diseño del portafolio original no contiene el menu hamburguesa.
+
 
 
 
