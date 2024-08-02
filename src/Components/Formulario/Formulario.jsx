@@ -95,7 +95,7 @@ const Formulario = () => {
                     placeholder="Nombre"
                     value={datos.nombre}
                     onChange={obtengoDatos}
-                    _focus={{ borderColor: '#007bff', outline: 'none' }}
+                    _focus={{ borderColor: 'customRed.500', outline: 'none' }}
                   />
                 </FormControl>
                 <FormControl id="apellido" w={{ base: "100%", sm: "48%" }} mt={{ base: "4", sm: "0" }}>
@@ -105,7 +105,7 @@ const Formulario = () => {
                     placeholder="Apellido"
                     value={datos.apellido}
                     onChange={obtengoDatos}
-                    _focus={{ borderColor: '#007bff', outline: 'none' }}
+                    _focus={{ borderColor: 'customRed.500', outline: 'none' }}
                   />
                 </FormControl>
               </Flex>
@@ -118,11 +118,15 @@ const Formulario = () => {
                     placeholder="Asunto"
                     value={datos.asunto}
                     onChange={obtengoDatos}
+                    _focus={{ borderColor: 'customRed.500', outline: 'none' }}
                   />
                 </FormControl>
               </Box>
 
-              <FormControl id="mensaje" w="95%">
+              <FormControl 
+              id="mensaje"
+               w="95%"
+               >
                 <Textarea
                   name="mensaje"
                   placeholder="Mensaje"
@@ -131,7 +135,7 @@ const Formulario = () => {
                   bg="rgb(20,27,36)"
                   color="#fff"
                   borderColor="#ccc"
-                  _focus={{ borderColor: '#007bff', outline: 'none' }}
+                  _focus={{ borderColor: 'customRed.500', outline: 'none' }}
                   h="150px"
                   w="100%"
                 />
