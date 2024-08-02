@@ -16,7 +16,6 @@ function SobreMi() {
     color="white" 
     py={{base:"10", md:"20"}}
     px={{base:"5", md:"10"}}
-    fontFamily="'acumin-pro', 'Acumin Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif"
     
     >
       <Heading 
@@ -24,12 +23,13 @@ function SobreMi() {
       textAlign="center" 
       fontSize={{base:"24px",md:"32px"}} 
       mb="3"
+      fontFamily="dm-serif-display"
       >
-        SOBRE MI
+        SOBRE MÍ
       </Heading>
       <Divider 
-      borderColor="red.500" 
-      borderWidth="2px" 
+      borderColor="#ca002e" 
+      borderWidth="1px" 
       maxW="100px" 
       mx="auto" 
       mt="3" 
@@ -156,8 +156,8 @@ function Servicios() {
       </Heading>
 
       <Divider 
-      borderColor="customRed.500" 
-      borderWidth="2px" 
+      borderColor="#ca002e" 
+      borderWidth="1px" 
       maxW="100px" 
       mx="auto" 
       mt="3" 

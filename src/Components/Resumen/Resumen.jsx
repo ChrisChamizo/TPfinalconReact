@@ -22,8 +22,8 @@ function Resumen(){
           RESUMEN
         </Heading>
         <Divider 
-        borderColor="customRed.500" 
-        borderWidth="2px" 
+        borderColor="#ca002e" 
+        borderWidth="1px" 
         maxW="100px"
         mx="auto"
         mt="3" 
