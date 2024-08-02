@@ -91,7 +91,7 @@ function SobreMi() {
           mt={{ base: 6, md: 0 }}
           p={{base: "2", md: "5"}}
           position="relative"
-          height={{ base: "300px", md: "400px" }} //Ajusta la altura del contenedor principal 
+          height={{ base: "250px", md: "400px" }} //Ajusta la altura del contenedor principal 
           display="flex"
           justifyContent="center"
           alignItems="center"
@@ -104,7 +104,7 @@ function SobreMi() {
             left="50%" //centra horizontalmente
             
             transform="translate(-50%, -50%)" // Ajusta la posición para centrar
-            width={{ base: "35%", md: "45%" }} //ajusta el ancho del fondo
+            width={{ base: "60%", md: "45%" }} //ajusta el ancho del fondo
             height={{ base: "100%", md: "100%" }} //ajusta la altura del fondo
             bg="#d3002d"
             borderRadius="md"
@@ -115,10 +115,10 @@ function SobreMi() {
            alt="Imagen de computadora"
            borderRadius="lg"
            position="absolute"
-           left={{ base: "25%", md: "25%" }} // Ajusta la imagen para sobresalir a la izquierda
+           left={{ base: "10%", md: "25%" }} // Ajusta la imagen para sobresalir a la izquierda
            top="50%" // centra verticalmente
            transform="translateY(-50%)" // Ajusta la posición vertical
-           width={{ base: "50%", md: "40%" }} // Ajusta el tamaño de la imagen
+           width={{ base: "70%", md: "40%" }} // Ajusta el tamaño de la imagen
            objectFit="cover"
            zIndex="2"
            />
