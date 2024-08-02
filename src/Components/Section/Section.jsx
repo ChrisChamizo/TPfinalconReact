@@ -1,5 +1,5 @@
 /*Importo la imagen de la compu*/
-import compu from "../../assets/img/compu.jpg"
+import laptop from "../../assets/img/laptop.jpg"
 
 /* importo los componentes de CHAKRA IU*/
 import { Box, Flex, Heading, Text,Image, Stack,Icon,Divider,Button,HStack} from '@chakra-ui/react';
@@ -85,27 +85,43 @@ function SobreMi() {
             Contáctame
           </Button>
         </Box>
-        <Box
+
+        <Box //Contenedor principal
          flex="1"
           mt={{ base: 6, md: 0 }}
-           p={{base:"2",md:"5"}}
-           position="relative">
-          <Box
+          p={{base: "2", md: "5"}}
+          position="relative"
+          height={{ base: "300px", md: "400px" }} //Ajusta la altura del contenedor principal 
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+          >
+
+
+          <Box //Contenedor del fondo rojo
             position="absolute"
-            top="20px"
-            left="20px"
-            width="100%"
-            height="100%"
+            top="50%" //centra verticalmente
+            left="50%" //centra horizontalmente
+            
+            transform="translate(-50%, -50%)" // Ajusta la posición para centrar
+            width={{ base: "35%", md: "45%" }} //ajusta el ancho del fondo
+            height={{ base: "100%", md: "100%" }} //ajusta la altura del fondo
             bg="#d3002d"
             borderRadius="md"
             zIndex="1"
           />
-          <Image
-           src={compu} 
-           alt="Imagen de computadora" 
-           borderRadius="md"
-            position="relative"
-           zIndex="2" />
+          <Image //imagen
+           src={laptop} 
+           alt="Imagen de computadora"
+           borderRadius="lg"
+           position="absolute"
+           left={{ base: "25%", md: "25%" }} // Ajusta la imagen para sobresalir a la izquierda
+           top="50%" // centra verticalmente
+           transform="translateY(-50%)" // Ajusta la posición vertical
+           width={{ base: "50%", md: "40%" }} // Ajusta el tamaño de la imagen
+           objectFit="cover"
+           zIndex="2"
+           />
         </Box>
       </Flex>
     </Box>
