@@ -21,7 +21,7 @@ El desarrollo del portafolio se realizó utilizando React + Vite para una experi
 
 Aclaracion: El diseño del portafolio original no contiene el menu hamburguesa.
 
-
+Para visualizar la pagina terminada, <a href="https://chrischamizo.github.io/TPfinalconReact/">Haga click aqui</a>.
 
 
 
